@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 140" fill="none">
+  <!-- Ilahi Resale Minimalist Logo Mark (IR Aerodynamic Car Silhouette) -->
+  <g transform="translate(15, 10)">
+    <!-- Slanted Forward 'I' Pillar -->
+    <path d="M52 20 L38 98" stroke="#0F172A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Aerodynamic Roofline & Windshield -->
+    <path d="M47 50 C65 24 100 12 142 12 C178 12 205 28 222 52" stroke="#0284C7" stroke-width="6.5" stroke-linecap="round" />
+    
+    <!-- Window Outline Divider -->
+    <path d="M82 48 C105 32 135 24 165 24 C175 24 185 27 192 32 L168 50 Z" stroke="#0284C7" stroke-width="4" stroke-linejoin="round" fill="none" opacity="0.8" />
+    
+    <!-- Front Bonnet & Wheel Arch Contour -->
+    <path d="M12 78 C12 62 25 52 46 50" stroke="#0F172A" stroke-width="6" stroke-linecap="round" />
+    <path d="M12 78 C12 84 15 90 20 90 C28 90 32 78 40 76" stroke="#0F172A" stroke-width="5.5" stroke-linecap="round" />
+    
+    <!-- Horizontal Speed Line / Lower Chassis Forming the 'R' Stem -->
+    <path d="M45 92 C55 60 70 52 110 52 C155 52 195 54 212 68 C226 79 216 100 185 100" stroke="#0F172A" stroke-width="6.5" stroke-linecap="round" />
+    
+    <!-- Lower Body Base Line -->
+    <path d="M68 96 L165 96" stroke="#0F172A" stroke-width="5.5" stroke-linecap="round" />
+    
+    <!-- Rear Aerodynamic Spoiler & Tail -->
+    <path d="M222 52 C236 56 248 64 252 74 C254 78 248 88 238 90 C234 82 228 72 220 68" stroke="#0284C7" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- 'R' Leg Forming Rear Wheel Swept Arch -->
+    <path d="M185 86 C180 94 175 106 182 112 C192 118 208 108 224 88" stroke="#0F172A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Typography: Clean Modern Geometric Sans -->
+  <g transform="translate(265, 20)">
+    <text x="0" y="52" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#0F172A" letter-spacing="1.5">ILAHI</text>
+    <text x="125" y="52" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="400" fill="#0284C7" letter-spacing="2">RESALE</text>
+    
+    <text x="3" y="82" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#64748B" letter-spacing="6">CERTIFIED PRE-OWNED</text>
+  </g>
+</svg>

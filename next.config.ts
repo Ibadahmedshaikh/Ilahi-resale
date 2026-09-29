@@ -16,15 +16,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-      },
-      {
-        protocol: "https",
-        hostname: "plus.unsplash.com",
-      },
-      {
-        // Supabase Storage — will match *.supabase.co
+        // Supabase Storage — for admin car photo uploads
         protocol: "https",
         hostname: "*.supabase.co",
         pathname: "/storage/v1/object/public/**",

@@ -15,9 +15,9 @@ export const cars: Car[] = [
     color: "Pearl Arctic White",
     rtoState: "Karnataka",
     photos: [
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/swift.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/wheel-1.webp",
     ],
     inspection: {
       engine: "Excellent",
@@ -47,9 +47,9 @@ export const cars: Car[] = [
     color: "Fiery Red",
     rtoState: "Karnataka",
     photos: [
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/i20.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/rear-1.webp",
     ],
     inspection: {
       engine: "Good",
@@ -79,9 +79,9 @@ export const cars: Car[] = [
     color: "Lunar Silver Metallic",
     rtoState: "Maharashtra",
     photos: [
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1580273916550-ceab57ef8093?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/city.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/wheel-1.webp",
     ],
     inspection: {
       engine: "Excellent",
@@ -120,9 +120,9 @@ export const cars: Car[] = [
     color: "Flame Red",
     rtoState: "Goa",
     photos: [
-      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/nexon.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/rear-1.webp",
     ],
     inspection: {
       engine: "Excellent",
@@ -160,9 +160,9 @@ export const cars: Car[] = [
     color: "Napoli Black",
     rtoState: "Karnataka",
     photos: [
-      "https://images.unsplash.com/photo-1625231338764-af4e37d0d4aa?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1580273916550-ceab57ef8093?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/thar.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/wheel-1.webp",
     ],
     inspection: {
       engine: "Good",
@@ -201,9 +201,9 @@ export const cars: Car[] = [
     color: "Super White",
     rtoState: "Tamil Nadu",
     photos: [
-      "https://images.unsplash.com/photo-1580273916550-ceab57ef8093?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/innova.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/rear-1.webp",
     ],
     inspection: {
       engine: "Excellent",
@@ -242,9 +242,9 @@ export const cars: Car[] = [
     color: "Glacier White Pearl",
     rtoState: "Telangana",
     photos: [
-      "https://images.unsplash.com/photo-1618843553365-61ab8e4cca3c?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1625231338764-af4e37d0d4aa?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/seltos.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/wheel-1.webp",
     ],
     inspection: {
       engine: "Excellent",
@@ -282,9 +282,9 @@ export const cars: Car[] = [
     color: "Silky Silver",
     rtoState: "Delhi",
     photos: [
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/baleno.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/rear-1.webp",
     ],
     inspection: {
       engine: "Good",
@@ -322,9 +322,9 @@ export const cars: Car[] = [
     color: "Typhoon Silver",
     rtoState: "Karnataka",
     photos: [
-      "https://images.unsplash.com/photo-1600706432502-fc25f38aebd8?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1618843553365-61ab8e4cca3c?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/creta.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/wheel-1.webp",
     ],
     inspection: {
       engine: "Excellent",
@@ -362,9 +362,9 @@ export const cars: Car[] = [
     color: "Reflex Silver",
     rtoState: "Goa",
     photos: [
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/polo.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/wheel-1.webp",
     ],
     inspection: {
       engine: "Excellent",
@@ -402,9 +402,9 @@ export const cars: Car[] = [
     color: "Moondust Silver",
     rtoState: "Gujarat",
     photos: [
-      "https://images.unsplash.com/photo-1625231338764-af4e37d0d4aa?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1580273916550-ceab57ef8093?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/ecosport.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/rear-1.webp",
     ],
     inspection: {
       engine: "Good",
@@ -441,9 +441,9 @@ export const cars: Car[] = [
     color: "Downtown Red",
     rtoState: "Karnataka",
     photos: [
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/harrier.webp",
+      "/images/cars/rear-1.webp",
+      "/images/cars/wheel-1.webp",
     ],
     inspection: {
       engine: "Excellent",
@@ -481,9 +481,9 @@ export const cars: Car[] = [
     color: "Brilliant Silver",
     rtoState: "Maharashtra",
     photos: [
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/octavia.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/grille-1.webp",
     ],
     inspection: {
       engine: "Good",
@@ -521,9 +521,9 @@ export const cars: Car[] = [
     color: "Moonlight Silver",
     rtoState: "Kerala",
     photos: [
-      "https://images.unsplash.com/photo-1580273916550-ceab57ef8093?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1625231338764-af4e37d0d4aa?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1618843553365-61ab8e4cca3c?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/kiger.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/rear-1.webp",
     ],
     inspection: {
       engine: "Excellent",
@@ -562,9 +562,9 @@ export const cars: Car[] = [
     color: "Lunar Silver Metallic",
     rtoState: "Karnataka",
     photos: [
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600706432502-fc25f38aebd8?w=900&q=80&auto=format&fit=crop",
+      "/images/cars/amaze.webp",
+      "/images/cars/interior-1.webp",
+      "/images/cars/wheel-1.webp",
     ],
     inspection: {
       engine: "Excellent",

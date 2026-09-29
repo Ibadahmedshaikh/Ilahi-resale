@@ -58,7 +58,7 @@ export default function HeroSection() {
           <div className={styles.rightCol}>
             <div className={styles.carBackdrop}>
               <Image
-                src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1200&q=85&auto=format&fit=crop"
+                src="/images/hero-car.webp"
                 alt="Premium verified pre-owned car"
                 fill
                 priority
