@@ -1,0 +1,220 @@
+.hero {
+  position: relative;
+  background: #ffffff;
+  padding-top: calc(var(--nav-height) + 3rem);
+  padding-bottom: 3.5rem;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+/* Left Column */
+.leftCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.badgePill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.875rem;
+  border-radius: var(--radius-full);
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  color: var(--color-accent);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  width: fit-content;
+  margin-bottom: 1.5rem;
+  animation: fadeIn 0.4s ease both;
+}
+
+.badgeDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  animation: pulse-dot 2s infinite ease-in-out;
+}
+
+.headline {
+  font-family: var(--font-heading);
+  font-size: clamp(2.75rem, 5.5vw, 4.25rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  color: #0f172a;
+  margin-bottom: 1.25rem;
+  animation: fadeInUp 0.5s ease 0.1s both;
+}
+
+.subtext {
+  font-size: clamp(1rem, 1.8vw, 1.125rem);
+  color: #64748b;
+  line-height: 1.65;
+  max-width: 520px;
+  margin-bottom: 2.25rem;
+  animation: fadeInUp 0.5s ease 0.2s both;
+}
+
+.ctaRow {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 2.25rem;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.5s ease 0.3s both;
+}
+
+.howItWorksBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #334155;
+  text-decoration: none;
+  padding: 0.65rem 1.125rem;
+  border-radius: var(--radius-full);
+  transition: all var(--ease-fast);
+}
+
+.howItWorksBtn:hover {
+  color: var(--color-accent);
+  background: #f8fafc;
+}
+
+.howItWorksBtn:hover .playIcon {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  transform: scale(1.05);
+}
+
+.playIcon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0f172a;
+  transition: all var(--ease-fast);
+}
+
+.heroFeatures {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-top: 1.25rem;
+  border-top: 1px solid #f1f5f9;
+  animation: fadeInUp 0.5s ease 0.4s both;
+}
+
+.featureItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.featureCheck {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #e0f2fe;
+  color: var(--color-accent);
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+/* Right Column: Car Backdrop */
+.rightCol {
+  position: relative;
+  width: 100%;
+  animation: fadeIn 0.7s ease 0.2s both;
+}
+
+.carBackdrop {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 12;
+  border-radius: 28px;
+  background: linear-gradient(145deg, #edf4fa 0%, #e2ecf5 100%);
+  overflow: hidden;
+  box-shadow: 0 12px 36px -8px rgba(15, 23, 42, 0.08);
+}
+
+.carImg {
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.carBackdrop:hover .carImg {
+  transform: scale(1.03);
+}
+
+.carGlow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 60%, rgba(255, 255, 255, 0.25) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .leftCol {
+    max-width: 600px;
+  }
+
+  .carBackdrop {
+    aspect-ratio: 16 / 10;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: calc(var(--nav-height) + 1.5rem);
+    padding-bottom: 2.5rem;
+  }
+
+  .headline {
+    font-size: 2.5rem;
+  }
+
+  .ctaRow {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .howItWorksBtn {
+    justify-content: center;
+  }
+
+  .heroFeatures {
+    gap: 0.875rem;
+  }
+}

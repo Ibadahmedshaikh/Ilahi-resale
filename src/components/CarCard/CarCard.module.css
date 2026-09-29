@@ -1,0 +1,196 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 22px;
+  border: 1px solid #f1f5f9;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: transform var(--ease-base), box-shadow var(--ease-base), border-color var(--ease-base);
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.03);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+  border-color: #e2e8f0;
+}
+
+/* Upper Area: Light Pastel Backdrop matching reference image */
+.imageBackdrop {
+  position: relative;
+  background: linear-gradient(180deg, #edf4fa 0%, #e5eff8 100%);
+  padding: 1rem 1rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  z-index: 2;
+}
+
+.bodyTypeTag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  background: #ffffff;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.06);
+}
+
+.ownerPill {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #334155;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+  background: #ffffff;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03);
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.bottomPillRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.inspectedPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: #059669;
+  background: #ffffff;
+  padding: 0.2rem 0.625rem;
+  border-radius: var(--radius-full);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+}
+
+.inspectedPill svg {
+  color: #10b981;
+}
+
+.photoCount {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+/* Content Area */
+.content {
+  padding: 1.25rem 1.35rem 1.35rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.year {
+  font-family: var(--font-heading);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  background: #f0f9ff;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+}
+
+.variant {
+  font-size: 0.8125rem;
+  color: #64748b;
+  margin-bottom: 0.75rem;
+}
+
+.specsRow {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8125rem;
+  color: #475569;
+  font-weight: 500;
+  margin-bottom: 1.125rem;
+}
+
+.specDot {
+  color: #cbd5e1;
+}
+
+.footerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.875rem;
+  border-top: 1px solid #f1f5f9;
+  margin-top: auto;
+}
+
+.priceLabel {
+  font-size: 0.8125rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.viewPillBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  background: #f0f9ff;
+  padding: 0.4rem 0.95rem;
+  border-radius: var(--radius-full);
+  transition: all var(--ease-fast);
+}
+
+.card:hover .viewPillBtn {
+  background: var(--color-accent);
+  color: #ffffff;
+  transform: translateX(2px);
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+}

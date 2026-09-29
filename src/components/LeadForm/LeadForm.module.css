@@ -1,0 +1,97 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.125rem;
+}
+
+.hasError .form-input,
+.hasError .form-select {
+  border-color: var(--color-error);
+}
+
+.error {
+  font-size: 0.8rem;
+  color: var(--color-error);
+  margin-top: 0.25rem;
+}
+
+.optional {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+  flex-wrap: wrap;
+}
+
+.footerNote {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8375rem;
+  color: var(--color-text-secondary);
+}
+
+.footerNote svg {
+  color: var(--color-whatsapp);
+  flex-shrink: 0;
+}
+
+/* Success */
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 3rem 2rem;
+}
+
+.successIcon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.successTitle {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.successText {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

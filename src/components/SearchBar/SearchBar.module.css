@@ -1,0 +1,130 @@
+.form {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.pillContainer {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: var(--radius-full);
+  border: 1.5px solid #e2e8f0;
+  padding: 0.35rem 0.45rem 0.35rem 1.25rem;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
+  transition: all var(--ease-fast);
+}
+
+.pillContainer:focus-within {
+  border-color: var(--color-accent);
+  box-shadow: 0 6px 24px rgba(2, 132, 199, 0.12);
+}
+
+.selectWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.select {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-text);
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' fill='none'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2364748B' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  padding-right: 1.75rem;
+  min-width: 120px;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background: #e2e8f0;
+  margin-inline: 0.5rem;
+  flex-shrink: 0;
+}
+
+.inputWrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  padding: 0.5rem 0.5rem;
+}
+
+.input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.searchPillBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-full);
+  background: var(--color-accent);
+  color: #ffffff;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.28);
+  transition: all var(--ease-fast);
+  flex-shrink: 0;
+}
+
+.searchPillBtn:hover {
+  background: var(--color-accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.35);
+}
+
+@media (max-width: 640px) {
+  .pillContainer {
+    flex-direction: column;
+    border-radius: var(--radius-lg);
+    padding: 0.875rem;
+    gap: 0.75rem;
+  }
+
+  .selectWrapper {
+    width: 100%;
+  }
+
+  .select {
+    width: 100%;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f1f5f9;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .inputWrapper {
+    width: 100%;
+  }
+
+  .input {
+    padding: 0.5rem 0;
+  }
+
+  .searchPillBtn {
+    width: 100%;
+  }
+}
